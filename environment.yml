@@ -1,0 +1,13 @@
+name: seismic-obspy
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - pip
+  - typer
+  - loguru
+  - tqdm
+  - ruff
+  - pip:
+    - python-dotenv
+    - -e .
