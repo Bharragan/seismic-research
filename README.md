@@ -1,4 +1,5 @@
-# seismic-obspy
+# Automatic Classification of Volcanic Seismic
+Events Using Neural Networks
 
 [![CCDS Project Template](https://img.shields.io/badge/CCDS-Project%20template-328F97?logo=cookiecutter)](https://cookiecutter-data-science.drivendata.org/)
 
