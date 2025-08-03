@@ -1,12 +1,23 @@
 # seismic-obspy
 
-<a target="_blank" href="https://cookiecutter-data-science.drivendata.org/">
-    <img src="https://img.shields.io/badge/CCDS-Project%20template-328F97?logo=cookiecutter" />
-</a>
+[![CCDS Project Template](https://img.shields.io/badge/CCDS-Project%20template-328F97?logo=cookiecutter)](https://cookiecutter-data-science.drivendata.org/)
 
-A short description of the project.
+This repository contains all the code and resources used in the study _"Automatic Classification of Volcanic Seismic Events Using Neural Networks"_ applied to labeled seismic data from Lascar volcano, Chile.
+
+The project applies Convolutional Neural Networks (CNNs) to spectrogram images generated from seismic waveforms for classifying five types of volcanic seismic events: Hybrid (HY), Long-Period (LP), Tectonic (TC), Tremor (TR), and Volcano-Tectonic (VT). In addition, statistical time- and frequency-domain features are extracted for exploratory data analysis.
+
+## Key Features
+
+- **Waveform Processing**: Tools for handling and converting seismic data (MSEED/SEISAN) using ObsPy.
+- **Feature Engineering**: Extraction of time-domain and frequency-domain features.
+- **Spectrogram Generation**: STFT-based spectrograms with configurable parameters.
+- **Modeling**: CNN architecture in Keras/TensorFlow for image-based classification.
+- **Evaluation**: Accuracy, precision, recall, F1-score, confusion matrix, and visualization.
+- **Reproducibility**: Predefined structure and environment files to ensure reproducible research.
 
 ## Project Organization
+
+
 
 ```
 ├── LICENSE            <- Open-source license if one is chosen
